@@ -1,0 +1,100 @@
+body {
+    font-family: 'kanit', sans-serif;
+    background: url('/image/test1.jpg') no-repeat center center fixed;
+    background-size: cover; /* ปรับขนาดรูปให้เต็มหน้าจอ */
+    background-position: center;
+    background-attachment: fixed; /* ทำให้พื้นหลังไม่เลื่อน */
+    color: white; /* สีตัวอักษร */
+
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    display: block; /* ทำให้โลโก้เป็น block-level element */
+    padding: 10px;
+    margin: 10px auto; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    width: 200px; /* กำหนดความกว้าง */
+    height: 200px; /* กำหนดความสูง */
+    object-fit: cover; /* ป้องกันการบิดเบือนของรูป */
+}
+.input-field {
+    display: block; /* ทำให้ input fields เป็น block-level */
+    width: 30%; /* ใช้ความกว้าง 30% ของ container */
+    padding: 10px;
+    margin: 10px auto; /* กำหนดให้ input field อยู่กึ่งกลางแนวนอน */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    display: block;
+    width: 31.5%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: #d3b701;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 10px auto;
+}
+.btn:hover {
+    background: #a38d00;
+}
+.link {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    width: fit-content; /* กำหนดให้ขนาดของลิงก์พอดีกับข้อความ */
+    padding: 10px;
+    margin: 10px auto; /* ทำให้ลิงก์อยู่กึ่งกลางแนวนอน */
+    text-align: center; /* จัดให้ข้อความอยู่กึ่งกลาง */
+}
+
+
+.btn1 {/* สมัครสมาชิก */
+    background-color: #d3b701;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn1:hover {
+    background-color: #a38d00;
+    transform: scale(1.1);
+}
+        
+.btn1:active {
+    transform: scale(0.95);
+}
+        
+        /* 🌟 ปรับแต่ง Navbar */
+        .navbar {
+            background-color: #ffffff;
+            padding: 15px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 6px 6px rgba(0, 0, 0, 0.259);
+            height: 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+                
+        .navbar a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out, transform 0.2s;
+        }
+                
+        .navbar a:hover {
+            color: #d1d1d1;
+            transform: scale(1.1);
+        }

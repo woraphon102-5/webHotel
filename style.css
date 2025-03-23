@@ -1,0 +1,135 @@
+.body1 {
+    font-family: 'kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/image/test1.jpg') no-repeat center center fixed;
+    background-size: cover; /* ปรับขนาดรูปให้เต็มหน้าจอ */
+    background-position: center;
+    background-attachment: fixed; /* ทำให้พื้นหลังไม่เลื่อน */
+    color: white; /* สีตัวอักษร */
+}
+
+
+.logo {
+    border-radius: 30px; /* Rounded corners */
+    padding: 10px;
+    cursor: pointer;
+    width: 300px; /* Set width */
+    height: 300px; /* Set height */
+    object-fit: cover; /* Ensures the image covers the entire space without stretching */
+    display: inline-block; /* Ensures it doesn't affect other layout elements */
+    position: relative; /* Keeps the logo in place without affecting the layout */
+}
+.imagehotel {
+    border-radius: 30px;
+    outline: 5px solid #ffffff;
+    outline-offset: -5px; /* นำขอบเข้ามาชิด */
+    padding: 0px; /* ลดระยะห่างของขอบ */
+    cursor: pointer;
+    width: 360px;
+    height: 250px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.text-content{
+    max-width: 60%;
+    color: rgb(0, 0, 0);
+}
+.text-content h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.text-content p {
+    font-size: 18px;
+    margin-top: -30px;
+}
+
+.btn {
+    background-color: #d3b701;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+    background-color: #a38d00;
+    transform: scale(1.1);
+}
+        
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn1 {/* สมัครสมาชิก */
+    background-color: #d3b701;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.btn1:hover {
+    background-color: #a38d00;
+    transform: scale(1.1);
+}
+        
+.btn1:active {
+    transform: scale(0.95);
+}
+        
+        /* 🌟 ปรับแต่ง Navbar */
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.259);
+    height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+        
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+}
+        
+.navbar a:hover {
+    color: #d1d1d1;
+    transform: scale(1.1);
+}
+
+.main-content a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.ads-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -2px;
+}
+.ad {
+    padding: 10px;
+    text-align: center;
+    width: 360px;
+    height: 250px;
+    color: rgb(5, 5, 5);
+}
